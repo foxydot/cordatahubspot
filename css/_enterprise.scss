@@ -1,0 +1,73 @@
+.specialty-page-1016{
+	&.hs-content-path-enterprise{
+		font-size: 16px;
+		.problem-section{
+			.widget-type-header{
+				h1{
+					margin-bottom: 0;
+				}
+			}
+			.widget-type-rich_text{
+				h2{
+					margin-top: 0;
+					color: $white;
+					font-size: 2em;
+					text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+				}
+			}
+		}
+		.solutions-section{
+			padding:  3em 0 5em 0;
+			.widget-type-rich_text{
+				padding: 0;
+			}
+			.more-info-box{
+				box-shadow: #666 0 0 10px;
+				padding: 0 1em 1em 1em;
+			}
+		}
+		.enterprise-platform-section, .overview-section, .highlights-section{
+			padding: 5em;
+		}
+		a.cta_button{
+			border-color: $white;
+			color: $white;
+			&:hover{
+				border-color: $orange;
+				color: $orange;
+				background-color: $white;
+			}
+		}
+		.link-not-btn{
+			a.cta_button{
+				border: 0;
+				color: $orange;
+				background: none;
+				padding: 0;
+				margin: 0;
+				&:hover{
+					background: none;
+					border: 0;
+					text-decoration: underline;
+				}
+			}
+		}
+		.center-content{
+			text-align: center;
+			margin-left: auto;
+			margin-right: auto;
+			img{
+				//max-width: 80%;
+			}
+		}
+		.bkg-white{
+			background: $white;
+		}
+		.bkg-ltgrey{
+			background: $ltgrey;
+		}
+		.bkg-offwhite{
+			background: $offwhite;
+		}
+	}
+}
